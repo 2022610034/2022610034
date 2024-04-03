@@ -1,0 +1,58 @@
+/* zil.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(ppr.jpeg) no-repeat center center fixed;
+    background-size: cover; /* Menyesuaikan gambar background dengan ukuran window */
+    color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Teks berada di tengah */
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Agar menu bisa memanjang ke bawah saat layar kecil */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+}
+
+/* Memberikan jarak antar menu */
+li:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* Mengatur lebar menu agar sesuai */
+li {
+    flex: 0 0 auto;
+}
+
+/* Agar menu tidak terlalu sempit pada layar kecil */
+@media screen and (max-width: 600px) {
+    li {
+        flex-basis: 100%; /* Menu memenuhi lebar */
+    }
+}
