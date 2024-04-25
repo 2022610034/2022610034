@@ -2,11 +2,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url(ppr.jpeg) no-repeat center center fixed;
+    background: url(gege.jpeg) no-repeat center center fixed;
     background-size: cover; /* Menyesuaikan gambar background dengan ukuran window */
     color: #fff;
     padding: 20px;
 }
+
 
 h2 {
     margin-bottom: 20px;

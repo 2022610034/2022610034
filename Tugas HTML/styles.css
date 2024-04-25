@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  margin-right: auto; /* Push navigasi ke sudut kanan */
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; /* Agar teks dalam daftar rapih */
+}
+
+li {
+  margin-bottom: 20px;
+  border: 2px solid #ccc; /* Menambahkan kotak di sekitar setiap item */
+  padding: 20px; /* Menambahkan ruang di dalam kotak */
+  border-radius: 10px; /* Membuat sudut kotak agak melengkung */
+  background-color: #fff; /* Memberikan latar belakang putih */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan tipis */
+  transition: transform 0.3s ease; /* Efek transisi saat hover */
+}
+
+li:hover {
+  transform: translateY(-5px); /* Menggeser kotak sedikit ke atas saat hover */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}

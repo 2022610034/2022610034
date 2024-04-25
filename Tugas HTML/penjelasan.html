@@ -9,16 +9,44 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             padding: 20px;
+            text-align: center; /* Untuk meratakan teks ke tengah */
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto; /* Untuk mengatur tengah secara horizontal */
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+        }
+        p {
+            text-align: left; /* Untuk meratakan teks ke kiri */
+            margin-bottom: 10px; /* Spasi antar paragraf */
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Efek transisi saat hover */
+        }
+        button:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
-    <p>1. <strong>head:</strong> Tag ini menandai awal dari bagian kepala (head) dari halaman HTML...</p>
-    <p>2. <strong>meta charset="UTF-8":</strong> Metadata ini memberitahu browser bahwa karakter set yang digunakan adalah UTF-8...</p>
-    <p>3. <strong>meta name="viewport" content="width=device-width, initial-scale=1.0":</strong> Metadata ini digunakan untuk mengatur tampilan halaman pada perangkat berbasis web...</p>
-    <p>4. <strong>title:</strong> Tag ini mendefinisikan judul halaman yang akan ditampilkan di tab browser atau dalam hasil pencarian...</p>
-    <br>
-    <button><a href="index.html">Back</a></button>
+    <div class="container">
+        <p><strong>1. head:</strong> Tag ini menandai awal dari bagian kepala (head) dari halaman HTML...</p>
+        <p><strong>2. meta charset="UTF-8":</strong> Metadata ini memberitahu browser bahwa karakter set yang digunakan adalah UTF-8...</p>
+        <p><strong>3. meta name="viewport" content="width=device-width, initial-scale=1.0":</strong> Metadata ini digunakan untuk mengatur tampilan halaman pada perangkat berbasis web...</p>
+        <p><strong>4. title:</strong> Tag ini mendefinisikan judul halaman yang akan ditampilkan di tab browser atau dalam hasil pencarian...</p>
+        <br>
+        <button><a href="index.html" style="color: #fff; text-decoration: none;">Back</a></button>
+    </div>
 </body>
 </html>
 

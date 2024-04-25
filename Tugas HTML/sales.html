@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZilCar - Sales</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Jarak antara mobil */
+            margin-top: 20px;
+        }
+        
+        .car {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .car img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .car h3 {
+            margin-top: 10px;
+            font-size: 16px; /* Ukuran teks judul mobil */
+        }
+
+        .car p {
+            margin-bottom: 10px; /* Jarak bawah informasi harga */
+        }
+
+        .car button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .car button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1>ZilCar</h1>
+    </div>
+</header>
+
+<nav class="navigation">
+    <div class="container">
+        <a href="index.html">Home</a>
+        <a href="#">Sales</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<section class="main-content">
+    <div class="container">
+        <h2>Find Your Dream Car</h2>
+        <!-- Tempatkan konten penjualan mobil di sini -->
+        <div class="car-container">
+            <div class="car">
+                <img src="supra.jpg" alt="Car 1">
+                <h3>Supra.mk5</h3>
+                <p>$10,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="car">
+                <img src="supra.jpg" alt="Car 2">
+                <h3>Supra.mk4</h3>
+                <p>$15,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Tambahkan mobil lainnya di sini -->
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Footer - &copy; 2024 ZilCar</p>
+</footer>
+
+</body>
+</html>
